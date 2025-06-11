@@ -7,7 +7,7 @@ const Logins = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    if (name === "admin" && password === "admin123") {
+    if (name === "admin123" && password === "admin123") {
       window.location.href = "https://timesofindia.indiatimes.com/us";
     } else {
       alert("Invalid credentials");
